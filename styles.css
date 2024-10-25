@@ -17,6 +17,14 @@ body {
     color: #333;
 }
 
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 0.5vh;
+    max-width: 350px;
+}
+
 .container {
     background-color: #fff;
     padding: 30px;
