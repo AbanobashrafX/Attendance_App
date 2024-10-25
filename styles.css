@@ -18,11 +18,14 @@ body {
 }
 
 .logo {
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
-    min-width: 0.5vh;
-    max-width: 350px;
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+    /* min-width: 35px;
+    max-width: 350px; */
 }
 
 .container {
