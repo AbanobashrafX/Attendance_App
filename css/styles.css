@@ -8,7 +8,7 @@ body {
     font-family: 'Roboto', sans-serif;
     /* Thumbnail */
 
-    background: url("Thumbnail.jpg");
+    background: url("../img/Thumbnail.jpg");
 
     display: flex;
     justify-content: center;
