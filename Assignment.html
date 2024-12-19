@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/timer.css">
 </head>
 
 <body>
@@ -16,6 +17,46 @@
                 action="https://docs.google.com/forms/d/e/1FAIpQLSe81XwV8ozL65wcEAWaAj0e9h4_-jYopbojEywVGnOKo7Hp0A/formResponse"
                 method="POST" target="_blank">
                 <h2>UI/UX Assignment</h2>
+
+                <div id="flipdown" class="flipdown">
+                    <div class="flip">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front" id="days">00</div>
+                                <div class="flip-card-back" id="days-back">00</div>
+                            </div>
+                        </div>
+                        <div class="label">Days</div>
+                    </div>
+                    <div class="flip">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front" id="hours">00</div>
+                                <div class="flip-card-back" id="hours-back">00</div>
+                            </div>
+                        </div>
+                        <div class="label">Hours</div>
+                    </div>
+                    <div class="flip">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front" id="minutes">00</div>
+                                <div class="flip-card-back" id="minutes-back">00</div>
+                            </div>
+                        </div>
+                        <div class="label">Minutes</div>
+                    </div>
+                    <div class="flip">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front" id="seconds">00</div>
+                                <div class="flip-card-back" id="seconds-back">00</div>
+                            </div>
+                        </div>
+                        <div class="label">Seconds</div>
+                    </div>
+                </div>
+                <script src="js/timer.js"></script>
 
                 <input type="text" name="entry.1564100197" placeholder="Enter your name" required>
                 <input type="text" name="entry.170753658" placeholder="Enter your Figma link here" required>

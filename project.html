@@ -6,13 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student UI/UX Projects</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/timer.css">
 </head>
 
 <body>
     <div style="padding: 3%;">
 
         <div class="container">
-            <img src="img/projects" class="logo">
+            <!-- <img src="img/projects" class="logo"> -->
+
+            <div id="flipdown" class="flipdown">
+                <div class="flip">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front" id="days">00</div>
+                            <div class="flip-card-back" id="days-back">00</div>
+                        </div>
+                    </div>
+                    <div class="label">Days</div>
+                </div>
+                <div class="flip">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front" id="hours">00</div>
+                            <div class="flip-card-back" id="hours-back">00</div>
+                        </div>
+                    </div>
+                    <div class="label">Hours</div>
+                </div>
+                <div class="flip">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front" id="minutes">00</div>
+                            <div class="flip-card-back" id="minutes-back">00</div>
+                        </div>
+                    </div>
+                    <div class="label">Minutes</div>
+                </div>
+                <div class="flip">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front" id="seconds">00</div>
+                            <div class="flip-card-back" id="seconds-back">00</div>
+                        </div>
+                    </div>
+                    <div class="label">Seconds</div>
+                </div>
+            </div>
+            <script src="js/timer.js"></script>
+
+
+            <p>&nbsp;</p>
+
             <h1>UI/UX Projects</h1>
             <form
                 action="https://docs.google.com/forms/d/e/1FAIpQLSezyOv49u_i98ESZNNzG3cW1IrrtGQJ0eOf3MhCTKPmHpmuOQ/formResponse"
