@@ -1,9 +1,9 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     // Set the date we're counting down to
-    const countDownDate = new Date("Mar 19, 2025 23:59:59").getTime();
+    const countDownDate = new Date("Apr 3, 2025 23:59:59").getTime();
 
     // Update the countdown every 1 second
-    const x = setInterval(function() {
+    const x = setInterval(function () {
         const now = new Date().getTime();
         const distance = countDownDate - now;
 
